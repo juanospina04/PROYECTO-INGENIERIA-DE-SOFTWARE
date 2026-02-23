@@ -6,7 +6,7 @@
 ## **Información General**
 
 - **Nombre de los estudiantes**:  
-  Juan Camilo Rodríguez Angulo, Juan Esteban Ospina Martinez, 
+  Juan Camilo Rodríguez Angulo, Juan Esteban Ospina Martinez, Andres Santiago Rojas Zuñiga, Andres Felipe Rodriguez Gonzales.
 
 - **Curso / Grupo**:  
   SC (Ingenieria de Software I)
