@@ -49,7 +49,7 @@ Se espera obtener un sistema funcional que permita registrar las solicitudes de 
 Desarrollar un sistema informático que permita identificar la distorsión en la clasificación de urgencias internas mediante el análisis del tiempo de respuesta y el impacto real.
 
 ### **Objetivos Específicos**:
--	Diseñar una base de datos para registrar solicitudes internas.
--	Comparar la urgencia declarada con el impacto real de cada solicitud.
--	Calcular un indicador que mida el nivel de falsas urgencias.
--	Generar reportes que apoyen la toma de decisiones organizacionales.
+- Diseñar una base de datos que permita registrar y organizar las solicitudes internas, teniendo en cuenta el nivel de urgencia asignado, el tiempo que tardan en resolverse y el impacto que realmente generan dentro de la organización.
+- Comparar la urgencia asignada con el impacto real de cada solicitud, con el fin de identificar si la clasificación inicial corresponde verdaderamente a la necesidad presentada.
+- Calcular un indicador que permita medir el nivel de solicitudes clasificadas como urgentes que en la práctica no geneneran un impacto significativo.
+- Generar reportes que faciliten la toma de decisiones, permitiendo identificar posibles errores en la clasificación de las urgencias internas.
