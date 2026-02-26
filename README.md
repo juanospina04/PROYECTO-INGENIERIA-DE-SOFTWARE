@@ -104,10 +104,10 @@ El desarrollo del sistema se realizará mediante una metodología iterativa e in
 ## Arquitectura General del Sistema
 
 El sistema estará compuesto por los siguientes módulos:
-- *Módulo de Registro de Solicitudes*
-- *Módulo de Clasificación de Urgencias*
-- *Módulo de Análisis de Impacto*
-- *Módulo de Reportes y Estadísticas*
+- Módulo de Registro de Solicitudes
+- Módulo de Clasificación de Urgencias
+- Módulo de Análisis de Impacto
+- Módulo de Reportes y Estadísticas
 
 ---
 
