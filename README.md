@@ -117,3 +117,9 @@ El sistema estará compuesto por los siguientes módulos:
 - Mejora en la organización y planificación del trabajo.
 - Optimización del tiempo de respuesta.
 - Apoyo a la toma de decisiones mediante información objetiva.
+
+---
+
+## Citas Bibliograficas
+
+
