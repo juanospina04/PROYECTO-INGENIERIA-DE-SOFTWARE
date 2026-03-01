@@ -99,7 +99,7 @@ El proyecto se clasifica como una aplicación web educativa basada en el modelo 
 Características técnicas principales:
 
 - Aplicación web accesible desde navegador.
-- Frontend desarrollado con HTML, CSS y JavaScript.
+- Frontend desarrollado con Python y JavaScript.
 - Backend encargado de procesar datos y almacenar información.
 - Base de datos para guardar usuarios, exámenes y registros.
 - Sistema multiusuario con inicio de sesión.
