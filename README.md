@@ -21,105 +21,139 @@
 
 ## **Título del Proyecto**
 
-### “¿Todo es Urgente?”.
+### “Tramposos oe”.
 
 ---
 
-## **Descripción del Proyecto**
-Diseño de un Sistema para la Medición de urgencias de una empresa y evitar el abuso de prioridad para optimizar tiempos y darle prioridad a lo que si es de verdad urgente.
+# Desarrollo de un sistema de examen en línea con detección de cambio de pestaña
 
-### **Propósito o problema que resuelve**:
+## Introducción
 
-El presente proyecto tiene como finalidad optimizar tiempos de una empresa debido a que generalmente en algunos lados las personas solicitan cosas urgentemente sin ni siquiera ser urgente, el proyecto recopilará esas solicitudes y las clasificará para evitar ese abuso de prioridad y así agilizar tiempos.
+En los últimos años, el uso de plataformas virtuales en la educación ha aumentado considerablemente, permitiendo que muchas actividades académicas, incluyendo evaluaciones, se realicen de forma remota. Los exámenes en línea ofrecen ventajas como flexibilidad y facilidad de acceso, pero también presentan nuevos desafíos relacionados con el control y la honestidad académica.
 
-### **Público objetivo o aplicación práctica**:
-
-El proyecto está dirigido principalmente a empresas con variedad de empleados las cuales quieran clasificar sus necesidades y así tener cada solicitud ordenada de acuerdo a lo necesitado.
-
-### **Resultado esperado**:
-
-Se espera obtener un sistema funcional que permita registrar las solicitudes de cada empleado y que este sistema la clasifique como urgente/no tan urgente/de menor prioridad/etc.
-
+A diferencia de los exámenes presenciales, en los entornos virtuales resulta más difícil supervisar el comportamiento del estudiante durante la prueba. Esto ha generado la necesidad de desarrollar herramientas tecnológicas que apoyen a los docentes y ayuden a garantizar procesos de evaluación más confiables.
 
 ---
 
-## **Objetivos**
+## Descripción del proyecto
 
-### **Objetivo General**:
-Desarrollar un sistema informático que permita identificar la distorsión en la clasificación de urgencias internas mediante el análisis del tiempo de respuesta y el impacto real.
+El presente proyecto consiste en el desarrollo de un sistema web de exámenes en línea capaz de detectar cuando un estudiante cambia de pestaña o abandona la ventana activa durante una evaluación. El sistema registrará estos eventos y generará información que posteriormente podrá ser revisada por el docente.
 
-### **Objetivos Específicos**:
-- Diseñar una base de datos que permita registrar y organizar las solicitudes internas, teniendo en cuenta el nivel de urgencia asignado, el tiempo que tardan en resolverse y el impacto que realmente generan dentro de la organización.
-- Comparar la urgencia asignada con el impacto real de cada solicitud, con el fin de identificar si la clasificación inicial corresponde verdaderamente a la necesidad presentada.
-- Calcular un indicador que permita medir el nivel de solicitudes clasificadas como urgentes que en la práctica no geneneran un impacto significativo.
-- Generar reportes que faciliten la toma de decisiones, permitiendo identificar posibles errores en la clasificación de las urgencias internas.
+La propuesta se enfoca en aplicar los conocimientos adquiridos en la materia de Ingeniería de Software, abarcando etapas como análisis de requisitos, diseño del sistema, desarrollo e implementación básica. Se busca crear una solución funcional y sencilla que aporte mayor control en evaluaciones virtuales sin recurrir a métodos invasivos como el uso de cámaras o monitoreo externo del equipo.
+## Planteamiento del problema
 
----
+Uno de los mayores problemas de los exámenes virtuales es la dificultad para supervisar a los estudiantes. En un examen presencial el docente puede observar el comportamiento del grupo, pero en línea esto no ocurre, ya que el estudiante puede abrir otras páginas, buscar respuestas o utilizar diferentes recursos sin que el profesor lo note.
 
-## Alcance del Proyecto
-
-El sistema permitirá el registro, clasificación, seguimiento y análisis de solicitudes internas.  
-No se contempla la ejecución directa de las tareas ni la automatización de procesos operativos externos, sino el análisis de información para mejorar la priorización y gestión del trabajo.
+Esto provoca que los resultados de las evaluaciones no siempre reflejen el conocimiento real del estudiante. Por esta razón, surge la necesidad de crear herramientas tecnológicas que permitan detectar comportamientos que puedan indicar posibles irregularidades durante un examen.
 
 ---
 
 ## Justificación
 
-La clasificación incorrecta de solicitudes como urgentes genera retrasos, estrés organizacional y una mala asignación de recursos. La falta de criterios objetivos para definir la urgencia afecta la eficiencia operativa de las empresas.
+El desarrollo de este sistema es importante porque busca mejorar la confiabilidad de las evaluaciones virtuales sin necesidad de usar herramientas complejas o invasivas. Detectar cambios de pestaña no evita completamente el fraude, pero sí permite generar alertas y registros que ayudan al docente a analizar lo ocurrido durante el examen.
 
-Este proyecto busca solucionar esta problemática mediante un sistema que compare la urgencia asignada con el impacto real, proporcionando información objetiva que contribuya a una mejor toma de decisiones.
-
----
-
-## Criterios Técnicos de Clasificación
-
-La clasificación de urgencias se realizará teniendo en cuenta variables como:
-- Impacto operativo dentro de la organización.
-- Tiempo máximo de respuesta requerido.
-- Consecuencias de no atender la solicitud oportunamente.
-- Número de procesos o personas afectadas.
+Además, este proyecto permite aplicar de manera práctica los conceptos aprendidos en Ingeniería de Software, como el levantamiento de requisitos, diseño del sistema, organización del desarrollo y pruebas del producto.
 
 ---
 
-## Indicadores y Métricas
+## Público objetivo
 
-El sistema permitirá calcular indicadores como:
-- Porcentaje de solicitudes urgentes sin impacto significativo.
-- Tiempo promedio de resolución por nivel de urgencia.
-- Cantidad de solicitudes mal clasificadas.
-- Relación entre urgencia asignada e impacto real.
+El sistema está pensado para:
 
----
-
-## Metodología de Desarrollo
-
-El desarrollo del sistema se realizará mediante una metodología iterativa e incremental, abarcando las fases de:
-- Análisis de requerimientos.
-- Diseño del sistema.
-- Implementación.
-- Pruebas funcionales.
+- Docentes que realizan evaluaciones virtuales.
+- Instituciones educativas que usan plataformas en línea.
+- Estudiantes que presentan exámenes digitales.
+- Administradores académicos que necesitan seguimiento de evaluaciones.
 
 ---
 
-## Arquitectura General del Sistema
+## Objetivo general
 
-El sistema estará compuesto por los siguientes módulos:
-- Módulo de Registro de Solicitudes
-- Módulo de Clasificación de Urgencias
-- Módulo de Análisis de Impacto
-- Módulo de Reportes y Estadísticas
+Desarrollar un sistema web de exámenes en línea que detecte y registre cuando un estudiante cambia de pestaña durante la evaluación, con el fin de mejorar el control y seguimiento del proceso evaluativo.
 
 ---
 
-## Beneficios Esperados
+## Objetivos específicos
 
-- Reducción del uso indebido de la prioridad “urgente”.
-- Mejora en la organización y planificación del trabajo.
-- Optimización del tiempo de respuesta.
-- Apoyo a la toma de decisiones mediante información objetiva.
+- Identificar los requisitos necesarios para el funcionamiento del sistema.
+- Diseñar una interfaz sencilla para docentes y estudiantes.
+- Implementar la detección de cambio de pestaña usando funciones del navegador.
+- Guardar los registros de actividad en una base de datos.
+- Generar reportes que puedan ser revisados por el docente.
+- Realizar pruebas básicas para verificar el correcto funcionamiento del sistema.
 
 ---
 
-## Citas Bibliograficas
+## Alcance
 
+El sistema permitirá crear exámenes en línea, responder preguntas dentro de una plataforma web y registrar cuando el estudiante cambie de pestaña o minimice la ventana.
 
+El proyecto no incluye reconocimiento facial, grabación por cámara ni monitoreo externo del computador, ya que el enfoque está únicamente en el comportamiento dentro del navegador.
+
+---
+
+## Marco técnico (criterios de clasificación)
+
+El proyecto se clasifica como una aplicación web educativa basada en el modelo cliente-servidor.
+
+Características técnicas principales:
+
+- Aplicación web accesible desde navegador.
+- Frontend desarrollado con HTML, CSS y JavaScript.
+- Backend encargado de procesar datos y almacenar información.
+- Base de datos para guardar usuarios, exámenes y registros.
+- Sistema multiusuario con inicio de sesión.
+
+---
+
+## Metodología de desarrollo
+
+Para el desarrollo se propone utilizar una metodología ágil tipo Scrum, ya que permite dividir el trabajo en pequeñas partes y avanzar progresivamente.
+
+El proceso se organizará en etapas:
+
+1. Análisis de requisitos.
+2. Diseño inicial del sistema.
+3. Desarrollo por módulos.
+4. Pruebas y correcciones.
+5. Entrega final del sistema.
+
+Esto facilita que el equipo pueda adaptarse a cambios y mejorar el sistema durante el proceso.
+
+---
+
+## Arquitectura del sistema
+
+El sistema tendrá una arquitectura básica de tres capas:
+
+- **Frontend:** interfaz donde el estudiante presenta el examen.
+- **Backend:** procesa la información y controla la lógica del sistema.
+- **Base de datos:** almacena preguntas, respuestas y registros de actividad.
+
+La detección del cambio de pestaña se realizará mediante eventos del navegador que permiten saber cuándo la página deja de estar activa.
+
+---
+
+## Indicadores y métricas
+
+Para evaluar el funcionamiento del sistema se tendrán en cuenta:
+
+- Cantidad de cambios de pestaña detectados por estudiante.
+- Tiempo total del examen.
+- Correcto registro de eventos en la base de datos.
+- Tiempo de respuesta del sistema.
+- Opinión de los usuarios durante pruebas piloto.
+
+---
+
+## Resultados y beneficios esperados
+
+Se espera que el sistema ayude a mejorar el control en evaluaciones virtuales y brinde a los docentes información adicional sobre el comportamiento del estudiante durante el examen.
+
+Además, el proyecto permitirá al equipo aplicar conocimientos reales de Ingeniería de Software y comprender mejor el proceso completo de desarrollo de un sistema, desde la idea inicial hasta su implementación.
+
+En general, se busca demostrar que con herramientas web básicas es posible crear soluciones útiles para problemas actuales dentro de la educación digital.
+
+---
+
+Citas Bibliograficas:
