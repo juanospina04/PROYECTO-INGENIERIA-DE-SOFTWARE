@@ -27,9 +27,9 @@
 
 # Desarrollo de un sistema de examen en línea con detección de cambio de pestaña
 
-### 1 Introducción
+## 1 Introducción
 
-## 1.1 Propósito
+### 1.1 Propósito
 
 El presente documento tiene como propósito especificar de manera detallada los requisitos del sistema de monitoreo digital orientado a la detección de cambios de pestaña durante evaluaciones virtuales. Este documento está dirigido a desarrolladores, docentes, evaluadores académicos y demás interesados en el diseño, desarrollo e implementación del sistema.
 
