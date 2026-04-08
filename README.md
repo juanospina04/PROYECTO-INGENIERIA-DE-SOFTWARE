@@ -27,7 +27,7 @@
 
 # Desarrollo de un sistema de examen en línea con detección de cambio de pestaña
 
-## Introducción
+##1 Introducción
 
 En los últimos años, el uso de plataformas virtuales en la educación ha aumentado considerablemente, permitiendo que muchas actividades académicas, incluyendo evaluaciones, se realicen de forma remota. Los exámenes en línea ofrecen ventajas como flexibilidad y facilidad de acceso, pero también presentan nuevos desafíos relacionados con el control y la honestidad académica.
 
