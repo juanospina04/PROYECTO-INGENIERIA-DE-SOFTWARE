@@ -47,6 +47,7 @@ El sistema permitirá:
 - Generar reportes para el docente.
   
 El sistema no bloqueará directamente al usuario, sino que actuará como una herramienta de monitoreo y análisis.
+
 ---
 
 ## Descripción del proyecto
