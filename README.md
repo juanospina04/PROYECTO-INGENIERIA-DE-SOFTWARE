@@ -48,6 +48,35 @@ El sistema permitirá:
   
 El sistema no bloqueará directamente al usuario, sino que actuará como una herramienta de monitoreo y análisis.
 
+### 1.3 Personal involucrado
+- Nombre:
+- Rol:
+- Categoría profesional:
+- Responsabilidades:
+- Información de contacto:
+- Aprobación:
+
+### 1.4 Definiciones, acrónimos y abreviaturas
+- SRS: Software Requirements Specification (Especificación de Requisitos de Software).
+- UCD: User-Centered Design (Diseño Centrado en el Usuario).
+- Evento: Acción detectada por el sistema, como el cambio de pestaña.
+- Frontend: Interfaz gráfica con la que interactúa el usuario.
+- Backend: Lógica del sistema encargada del procesamiento y almacenamiento.
+- Monitoreo digital: Seguimiento del comportamiento del usuario en un entorno virtual.
+
+### 1.5 Referencias
+- IEEE Std 830-1998, Recommended Practice for Software Requirements Specifications.
+- ISO 9241-210, Human-centred design for interactive systems.
+- Brown, T. (2008). Design Thinking. Harvard Business Review.
+- Norman, D. (2013). The Design of Everyday Things.
+
+### 1.6 Visión general del documento
+
+Este documento se organiza en tres secciones principales.
+En la sección 1, se presenta la introducción del documento, incluyendo el propósito, el alcance, las definiciones relevantes y las referencias utilizadas.
+En la sección 2, se describe de manera general el sistema, abordando su contexto dentro del entorno educativo, las funciones principales, las características de los usuarios, así como las restricciones y supuestos asociados al sistema.
+En la sección 3, se especifican los requisitos detallados del sistema, incluyendo las interfaces externas, las funciones del sistema, los requisitos de rendimiento, las restricciones de diseño y los atributos de calidad.
+
 ---
 
 ## Descripción del proyecto
