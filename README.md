@@ -32,6 +32,7 @@
 ### 1.1 Propósito
 
 El presente documento tiene como propósito especificar de manera detallada los requisitos del sistema de monitoreo digital orientado a la detección de cambios de pestaña durante evaluaciones virtuales. Este documento está dirigido a desarrolladores, docentes, evaluadores académicos y demás interesados en el diseño, desarrollo e implementación del sistema.
+
 Su objetivo es servir como base para la comprensión funcional del sistema, así como para la validación de sus características y comportamiento esperado.
 
 ### 1.2 Alcance
@@ -44,6 +45,7 @@ El sistema permitirá:
 - Mostrar un contador visible de incidencias.
 - Almacenar los datos en un servidor.
 - Generar reportes para el docente.
+  
 El sistema no bloqueará directamente al usuario, sino que actuará como una herramienta de monitoreo y análisis.
 ---
 
