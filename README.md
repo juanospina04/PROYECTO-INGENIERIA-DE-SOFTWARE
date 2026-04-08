@@ -32,8 +32,19 @@
 ### 1.1 Propósito
 
 El presente documento tiene como propósito especificar de manera detallada los requisitos del sistema de monitoreo digital orientado a la detección de cambios de pestaña durante evaluaciones virtuales. Este documento está dirigido a desarrolladores, docentes, evaluadores académicos y demás interesados en el diseño, desarrollo e implementación del sistema.
-
 Su objetivo es servir como base para la comprensión funcional del sistema, así como para la validación de sus características y comportamiento esperado.
+
+### 1.2 Alcance
+
+El sistema consiste en una aplicación web capaz de detectar cambios de pestaña, pérdida de foco o minimización de la ventana durante una evaluación virtual. Su finalidad es apoyar los procesos de supervisión académica mediante el registro de eventos y la generación de reportes.
+El sistema permitirá:
+- Detectar eventos de cambio de pestaña en tiempo real.
+- Registrar fecha y hora de cada evento.
+- Generar advertencias progresivas al usuario.
+- Mostrar un contador visible de incidencias.
+- Almacenar los datos en un servidor.
+- Generar reportes para el docente.
+El sistema no bloqueará directamente al usuario, sino que actuará como una herramienta de monitoreo y análisis.
 ---
 
 ## Descripción del proyecto
