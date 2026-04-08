@@ -27,12 +27,13 @@
 
 # Desarrollo de un sistema de examen en línea con detección de cambio de pestaña
 
-## 1 Introducción
+### 1 Introducción
 
-En los últimos años, el uso de plataformas virtuales en la educación ha aumentado considerablemente, permitiendo que muchas actividades académicas, incluyendo evaluaciones, se realicen de forma remota. Los exámenes en línea ofrecen ventajas como flexibilidad y facilidad de acceso, pero también presentan nuevos desafíos relacionados con el control y la honestidad académica.
+## 1.1 Propósito
 
-A diferencia de los exámenes presenciales, en los entornos virtuales resulta más difícil supervisar el comportamiento del estudiante durante la prueba. Esto ha generado la necesidad de desarrollar herramientas tecnológicas que apoyen a los docentes y ayuden a garantizar procesos de evaluación más confiables.
+El presente documento tiene como propósito especificar de manera detallada los requisitos del sistema de monitoreo digital orientado a la detección de cambios de pestaña durante evaluaciones virtuales. Este documento está dirigido a desarrolladores, docentes, evaluadores académicos y demás interesados en el diseño, desarrollo e implementación del sistema.
 
+Su objetivo es servir como base para la comprensión funcional del sistema, así como para la validación de sus características y comportamiento esperado.
 ---
 
 ## Descripción del proyecto
