@@ -14,7 +14,7 @@
 - **Fecha de entrega**:  
   23/02/2026
 
-- **Profesor**:  
+- **Profesor**:  Alonso Guevara Perez
   
 
 ---
