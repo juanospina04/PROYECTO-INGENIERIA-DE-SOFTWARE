@@ -196,6 +196,7 @@ El sistema deberá ser compatible con diferentes navegadores modernos.
 
 ---
 ---
+---
 
 ## Descripción del proyecto
 
