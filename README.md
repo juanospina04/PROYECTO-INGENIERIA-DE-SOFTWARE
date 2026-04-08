@@ -73,11 +73,60 @@ El sistema no bloqueará directamente al usuario, sino que actuará como una her
 ### 1.6 Visión general del documento
 
 Este documento se organiza en tres secciones principales.
+
 En la sección 1, se presenta la introducción del documento, incluyendo el propósito, el alcance, las definiciones relevantes y las referencias utilizadas.
+
 En la sección 2, se describe de manera general el sistema, abordando su contexto dentro del entorno educativo, las funciones principales, las características de los usuarios, así como las restricciones y supuestos asociados al sistema.
+
 En la sección 3, se especifican los requisitos detallados del sistema, incluyendo las interfaces externas, las funciones del sistema, los requisitos de rendimiento, las restricciones de diseño y los atributos de calidad.
 
 ---
+
+## 2. Descripción general
+
+### 2.1 Perspectiva del producto
+
+El sistema de monitoreo digital forma parte de una solución educativa que puede integrarse a plataformas de gestión de aprendizaje (LMS). Funciona como un módulo adicional que supervisa el comportamiento del usuario durante evaluaciones virtuales.
+
+El sistema interactúa con:
+- El navegador web del usuario.
+- La plataforma de evaluación.
+- Un servidor para almacenamiento de datos.
+
+### 2.2 Funciones del producto
+
+El sistema proporcionará las siguientes funcionalidades principales:
+- Monitoreo en tiempo real del comportamiento del usuario.
+- Detección de cambios de pestaña o pérdida de foco.
+- Generación de advertencias visuales.
+- Registro de eventos con marca de tiempo.
+- Almacenamiento de datos en una base de datos.
+- Generación de reportes para el docente.
+
+### 2.3 Características de los usuarios
+
+#### Estudiante
+
+Usuario que presenta la evaluación. Posee conocimientos básicos en el uso de herramientas digitales y requiere una interfaz clara y comprensible.
+
+#### Docente
+
+Usuario encargado de supervisar y analizar los resultados. Requiere acceso a reportes organizados y fáciles de interpretar.
+
+### 2.4 Restricciones
+- El sistema depende del uso de navegadores web compatibles con JavaScript.
+- Requiere conexión a internet para el envío de datos.
+- No puede controlar dispositivos externos al navegador.
+- Debe cumplir con políticas de privacidad y protección de datos.
+
+### 2.5 Suposiciones y dependencias
+- Se asume que los usuarios utilizan navegadores modernos.
+- El sistema depende de eventos del navegador como visibilitychange.
+- Se requiere un servidor para almacenamiento de información.
+- El usuario acepta las condiciones de monitoreo antes de iniciar la evaluación.
+
+
+
 
 ## Descripción del proyecto
 
