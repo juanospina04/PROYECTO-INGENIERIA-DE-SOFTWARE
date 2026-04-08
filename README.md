@@ -125,8 +125,77 @@ Usuario encargado de supervisar y analizar los resultados. Requiere acceso a rep
 - Se requiere un servidor para almacenamiento de información.
 - El usuario acepta las condiciones de monitoreo antes de iniciar la evaluación.
 
+---
 
+## 3. Requisitos específicos
 
+### 3.1 Interfaces externas
+
+#### 3.1.1 Interfaces de usuario
+
+El sistema contará con una interfaz gráfica accesible desde un navegador web. Esta incluirá:
+- Pantalla de evaluación con preguntas.
+- Contador visible de cambios de pestaña.
+- Mensajes emergentes de advertencia.
+
+#### 3.1.2 Interfaces de hardware
+
+El sistema será accesible desde:
+- Computadores de escritorio.
+- Portátiles.
+- Dispositivos con navegador web compatible.
+
+#### 3.1.3 Interfaces de software
+
+El sistema interactuará con:
+- Navegadores web (Chrome, Firefox, Edge).
+- Servidor backend (Flask o Node.js).
+- Base de datos para almacenamiento de eventos.
+
+### 3.2 Funciones del sistema
+
+El sistema deberá permitir la detección y registro de eventos relacionados con el comportamiento del usuario durante una evaluación virtual.
+
+A continuación, se describen los requisitos funcionales:
+
+- RF1: El sistema deberá detectar cambios de pestaña en tiempo real.
+- RF2: El sistema deberá registrar la fecha y hora de cada evento detectado.
+- RF3: El sistema deberá incrementar un contador visible para el usuario.
+- RF4: El sistema deberá mostrar una advertencia en pantalla al detectar un evento.
+- RF5: El sistema deberá enviar los datos registrados al servidor.
+- RF6: El sistema deberá almacenar los eventos en una base de datos.
+- RF7: El sistema deberá generar reportes accesibles para el docente.
+
+### 3.3 Requisitos de rendimiento
+- El sistema deberá detectar eventos en un tiempo menor a un segundo.
+- El sistema deberá soportar múltiples usuarios simultáneamente.
+- El sistema no deberá afectar el rendimiento general del examen.
+
+### 3.4 Restricciones de diseño
+- El sistema deberá implementarse utilizando tecnologías web (HTML, CSS y JavaScript).
+- Se deberá emplear una arquitectura cliente-servidor.
+- La interfaz deberá ser simple, clara y no intrusiva.
+
+### 3.5 Atributos del sistema
+
+#### Usabilidad
+
+El sistema deberá ser fácil de usar y comprensible para usuarios sin conocimientos técnicos avanzados.
+
+#### Seguridad
+
+El sistema deberá garantizar la protección de los datos registrados y evitar accesos no autorizados.
+
+#### Confiabilidad
+
+El sistema deberá registrar correctamente los eventos sin pérdida de información.
+
+#### Portabilidad
+
+El sistema deberá ser compatible con diferentes navegadores modernos.
+
+---
+---
 
 ## Descripción del proyecto
 
