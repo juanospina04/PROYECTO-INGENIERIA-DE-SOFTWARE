@@ -50,10 +50,24 @@ El sistema permitirá:
 El sistema no bloqueará directamente al usuario, sino que actuará como una herramienta de monitoreo y análisis.
 
 ### 1.3 Personal involucrado
-- Nombre:
-- Rol:
+### 
+Juan Esteban Ospina Martinez
+- **Rol:** Coordinador y Analista de Requisitos  
+- **Responsabilidades:** Organización del equipo, distribución de tareas y alineación con los objetivos del proyecto. Definición y estructuración de los requerimientos, traduciéndolos en tareas claras para el desarrollo.
+
+Juan Camilo Rodríguez Angulo
+- **Rol:** Cohesionador y Diseñador  
+- **Responsabilidades:** Fomentar la comunicación y el buen ambiente de trabajo, facilitando la colaboración del equipo. Diseño de la arquitectura del sistema, base de datos e interfaces, asegurando coherencia con los requerimientos.
+
+Andres Santiago Rojas Zuñiga
+- **Rol:** Cohesionador y Diseñador  
+- **Responsabilidades:** Apoyo en la integración del equipo mediante la escucha activa y resolución de conflictos. Participación en el diseño centrado en el usuario, mejorando la experiencia y usabilidad.
+
+Andres Felipe Rodriguez Gonzalez
+- **Rol:** Coordinador y Programador  
+- **Responsabilidades:** Gestión de la asignación eficiente de tareas según las habilidades del equipo. Desarrollo e implementación del código, garantizando el correcto funcionamiento del sistema.
+
 - Categoría profesional:
-- Responsabilidades:
 - Información de contacto:
 - Aprobación:
 
