@@ -67,9 +67,6 @@ Andres Felipe Rodriguez Gonzalez
 - **Rol:** Coordinador y Programador  
 - **Responsabilidades:** Gestión de la asignación eficiente de tareas según las habilidades del equipo. Desarrollo e implementación del código, garantizando el correcto funcionamiento del sistema.
 
-- Categoría profesional:
-- Información de contacto:
-- Aprobación:
 
 ### 1.4 Definiciones, acrónimos y abreviaturas
 - SRS: Software Requirements Specification (Especificación de Requisitos de Software).
