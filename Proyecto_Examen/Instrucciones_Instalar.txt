@@ -1,0 +1,55 @@
+SISTEMA DE DETECCIÓN DE FRAUDE - INSTRUCCIONES DE EJECUCIÓN
+
+
+PASO 1: Instalar Python (si no lo tiene)
+- Descargue desde: https://www.python.org/downloads/
+- Marque "Add Python to PATH" durante la instalación
+- Reinicie la computadora después de instalar si el sistema no ha reconocido al programa
+
+PASO 2: Extraer la carpeta comprimida
+- Extraiga Codigo y Prototipo en su Escritorio o Documentos
+
+PASO 3: Abrir terminal/consola en Visual Studio Code
+- Windows: Presione Win + R, escriba "cmd", Enter
+- O busque "PowerShell" en el menú Inicio
+
+PASO 4: Navegar a la carpeta del proyecto
+- cd Desktop\PCodigo y prototipo (o donde lo haya extraído)
+
+PASO 5: Instalar dependencias en la terminal
+- pip install -r requirements.txt
+    Si da error, use:
+- python -m pip install -r requirements.txt
+
+PASO 6: Ejecutar el backend (Terminal 1)
+- cd backend
+- python app_simple.py
+    Debería ver:
+    🚀 SERVIDOR INICIADO
+    📍 Servidor: http://localhost:5000
+    ⚠️ NO CIERRE ESTA TERMINAL - Déjela abierta
+
+PASO 7: Ejecutar el frontend (Terminal 2)
+- Abra UNA NUEVA terminal (NO cierre la anterior)
+- En la nueva terminal escriba:
+- cd frontend
+- python -m http.server 8080
+    Debería ver:
+- Serving HTTP on :: port 8080
+    ⚠️ NO CIERRE ESTA TERMINAL TAMPOCO
+
+PASO 8: Abrir en el navegador
+- Abra Chrome, Firefox o Edge
+- En la barra de direcciones escriba:
+- http://localhost:8080/examen.html
+- Presione Enter
+ 
+PASO 9: Probar el sistema
+- Complete los datos del estudiante
+- Responda algunas preguntas
+- Cambie de pestaña (Ctrl + T) para probar la detección
+- Regrese y haga clic en "Enviar Examen"
+- Debería aparecer un mensaje de éxito
+
+PASO 10: Ver resultados
+- Los exámenes se guardan en: backend/examenes_guardados/
